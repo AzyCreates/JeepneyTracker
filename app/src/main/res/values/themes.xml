@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.JeepneyTracker" parent="Theme.Material3.DayNight">
+        <!-- Teal Color Scheme -->
+        <item name="colorPrimary">@color/teal_primary</item>
+        <item name="colorPrimaryVariant">@color/teal_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/teal_primary_dark</item>
+    </style>
+
+    <style name="Theme.JeepneyTracker" parent="Base.Theme.JeepneyTracker" />
+
+    <!-- Differentiated Button Styles -->
+    <style name="Widget.App.Button.Add" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/btn_add_green</item>
+    </style>
+
+    <style name="Widget.App.Button.Update" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/btn_update_orange</item>
+    </style>
+
+    <style name="Widget.App.Button.Delete" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/btn_delete_red</item>
+    </style>
+</resources>
