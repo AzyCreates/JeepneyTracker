@@ -118,7 +118,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                android:text="Add" />
+                android:text="Add"
+                app:cornerRadius="8dp" />
 
             <Button
                 android:id="@+id/btUpdate"
@@ -127,7 +128,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="4dp"
                 android:layout_weight="1"
-                android:text="Update" />
+                android:text="Update"
+                app:cornerRadius="8dp" />
 
             <Button
                 android:id="@+id/btDelete"
@@ -136,7 +138,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_weight="1"
-                android:text="Delete" />
+                android:text="Delete"
+                app:cornerRadius="8dp" />
         </LinearLayout>
 
         <!-- History Log Header -->
@@ -144,7 +147,8 @@
             android:id="@+id/btnDatePicker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select Date" />
+            android:text="Select Date"
+            app:cornerRadius="8dp" />
 
         <TextView
             android:id="@+id/tvHistoryLabel"
